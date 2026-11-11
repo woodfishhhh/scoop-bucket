@@ -1,0 +1,38 @@
+{
+    "version": "1.0.0",
+    "description": "Give files a lifespan and restore them from a graveyard.",
+    "homepage": "https://github.com/woodfishhhh/obituary",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/woodfishhhh/obituary/releases/download/v1.0.0/obituary_1.0.0_windows_amd64.zip",
+            "bin": [
+                "obit.exe",
+                "obitd.exe",
+                "obit-gui.exe"
+            ],
+            "hash": "96671d2ca000d57fdc0f2093a28621d694183c777227b1bd2aa25fd6f2cc1803",
+            "shortcuts": [
+                [
+                    "obit-gui.exe",
+                    "Obituary",
+                    "",
+                    "obit-gui.exe"
+                ]
+            ]
+        },
+        "arm64": {
+            "url": "https://github.com/woodfishhhh/obituary/releases/download/v1.0.0/obituary_1.0.0_windows_arm64.zip",
+            "bin": [
+                "obit.exe",
+                "obitd.exe"
+            ],
+            "hash": "e7b4afd06b68bf41f16c2396d5d0fff4ce7553d020ae0e4b7177cc3a67eba840"
+        }
+    },
+    "notes": [
+        "Before removing binaries, run obit uninstall --yes in the current project; data is kept by default.",
+        "Close Obituary programs before upgrading. Keep obit.exe and obitd.exe in the same directory.",
+        "The amd64 package also includes obit-gui.exe and requires WebView2 Runtime; arm64 includes only the CLI and daemon."
+    ]
+}
