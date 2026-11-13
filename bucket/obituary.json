@@ -1,17 +1,17 @@
 {
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Give files a lifespan and restore them from a graveyard.",
     "homepage": "https://github.com/woodfishhhh/obituary",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/woodfishhhh/obituary/releases/download/v1.1.0/obituary_1.1.0_windows_amd64.zip",
+            "url": "https://github.com/woodfishhhh/obituary/releases/download/v1.1.1/obituary_1.1.1_windows_amd64.zip",
             "bin": [
                 "obitd.exe",
                 "obit.exe",
                 "obit-gui.exe"
             ],
-            "hash": "839edaec763dafd85a0df84517168fc3d3a60335cee353cc43540449e16d5b34",
+            "hash": "16f38e49725210ab83aa8d5f50fb4a6fd3218ae3c2860e684b9996137557c02a",
             "shortcuts": [
                 [
                     "obit-gui.exe",
@@ -22,12 +22,12 @@
             ]
         },
         "arm64": {
-            "url": "https://github.com/woodfishhhh/obituary/releases/download/v1.1.0/obituary_1.1.0_windows_arm64.zip",
+            "url": "https://github.com/woodfishhhh/obituary/releases/download/v1.1.1/obituary_1.1.1_windows_arm64.zip",
             "bin": [
                 "obitd.exe",
                 "obit.exe"
             ],
-            "hash": "5a16ed933947022ab9d212c15735ac59eff8d2ab369580a7ba655de6708df373"
+            "hash": "9ac843161489930da86ccddc09cd6346f4426f43fb17c74de92e5cc36850882a"
         }
     },
     "notes": [
