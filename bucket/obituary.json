@@ -1,17 +1,17 @@
 {
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "The trash bin for AI agents. Give files a lifespan and restore them from a graveyard.",
     "homepage": "https://github.com/woodfishhhh/obituary",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/woodfishhhh/obituary/releases/download/v1.4.1/obituary_1.4.1_windows_amd64.zip",
+            "url": "https://github.com/woodfishhhh/obituary/releases/download/v1.4.2/obituary_1.4.2_windows_amd64.zip",
             "bin": [
                 "obitd.exe",
                 "obit.exe",
                 "obit-gui.exe"
             ],
-            "hash": "7f1df82be1b32332da2b099a96629538f886a20a5b4c4909eec9ce63c66e2b4a",
+            "hash": "f8430831d5df3ba44ac2b286959b391fad928b8eccb61a65e72cdab45cbbce55",
             "shortcuts": [
                 [
                     "obit-gui.exe",
@@ -22,12 +22,12 @@
             ]
         },
         "arm64": {
-            "url": "https://github.com/woodfishhhh/obituary/releases/download/v1.4.1/obituary_1.4.1_windows_arm64.zip",
+            "url": "https://github.com/woodfishhhh/obituary/releases/download/v1.4.2/obituary_1.4.2_windows_arm64.zip",
             "bin": [
                 "obitd.exe",
                 "obit.exe"
             ],
-            "hash": "dc73fd96ca973f22602159d9bb0e8bfcaf67501b8af359ff06bcc725291bfeea"
+            "hash": "21d0e9ef39e745780ad86d64e570d3448256175636bee12b68227d71587d7076"
         }
     },
     "notes": [
